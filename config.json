@@ -3,16 +3,36 @@
 		"primary": "#227517"
 	},
 	"channels": {
-		"welcome": "773564129264795700",
-		"logs": "685603986581225477",
-		"roles": "685603986581225477"
+		"welcome": "713296167839989800",
+		"logs": "742107652934336552",
+		"roles": "1380372231170818129"
 	},
 	"roles": {
-		"default": "685709328069689380",
+		"default": "713141482776952912",
 		"projects": [
-			{ "id": "625372675879206923", "label": "Muted", "emoji": "🅰️" },
-			{ "id": "622293537370800169", "label": "Owner", "emoji": "🅱️" },
-			{ "id": "685709328069689380", "label": "Verified", "emoji": "⚙️" }
+			{
+				"id": "1380368837836406855",
+				"label": "Teak's Tweaks",
+				"emoji": { "id": "944791171836825600", "name": "tt", "animated": false }
+			},
+			{
+				"id": "1380368933852414005",
+				"label": "End Reset",
+				"emoji": {
+					"id": "921921725258682378",
+					"name": "endreset",
+					"animated": false
+				}
+			},
+			{
+				"id": "1380368967482347540",
+				"label": "No Chat Reports",
+				"emoji": {
+					"id": "991867550814175303",
+					"name": "nochatreports",
+					"animated": false
+				}
+			}
 		]
 	}
 }
