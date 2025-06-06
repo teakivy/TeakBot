@@ -15,6 +15,16 @@ export const once = false;
 export async function execute(message) {
 	if (message.author.bot) return;
 
+	// Bot is mentioned directly (not as part of a command)
+	if (
+		message.mentions.has(message.client.user, {
+			ignoreEveryone: true,
+			ignoreRoles: true,
+		})
+	) {
+		return message.reply('👋');
+	}
+
 	if (message.content === '!sendReactionRoles') {
 		// Admin only
 		if (!message.member.permissions.has('Administrator')) {
